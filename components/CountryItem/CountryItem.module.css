@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  margin-top: 20px;
+  background-color: var(--background-color-light);
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.1s all ease-in-out;
+}
+.wrapper:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--box-shadow);
+}
+
+.country_name {
+  flex: 1;
+  color: var(--text-color);
+  width: 100%;
+  text-align: left;
+  padding-left: 20px;
+}
+.population {
+  flex: 1;
+}

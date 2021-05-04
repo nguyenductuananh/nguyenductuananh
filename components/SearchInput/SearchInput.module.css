@@ -1,0 +1,17 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  background-color: var(--text-color-secondary);
+
+  margin: 0 auto;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+.input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin: 10px;
+  font-size: 16px;
+}
